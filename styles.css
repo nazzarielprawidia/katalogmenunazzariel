@@ -18,7 +18,7 @@ body {
 
 .logo a {
     font-size: 30px;
-    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
     font-weight: 800;
     color: #f8f6f5;
     float: left;
@@ -36,7 +36,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(5, 5, 0);
     z-index: 1;
 }
 
@@ -67,11 +67,12 @@ a.order {
     background: #f0960e;
     border-radius: 20px;
     margin-top: 20px;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 10px 15px;
     color: aliceblue;
     cursor: pointer;
     font-weight: bold;
 }
+
 
 section {
     margin: 0px;
@@ -136,4 +137,4 @@ a.reservasi {
     cursor: pointer;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+}
